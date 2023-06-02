@@ -1,18 +1,20 @@
 {
-  "name": "quickswap-sdk",
+  "name": "@alka-swap/linea-sdk",
   "license": "MIT",
-  "version": "3.0.20",
-  "description": "🛠 An SDK for building applications on top of Quickswap.",
+  "version": "1.0.1",
+  "description": "🛠 An SDK for building applications on top of Alkaline.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/sameepsi/quickswap-sdk.git",
+  "repository": "https://github.com/alkaline-fi/alka-swap-sdk.git",
   "keywords": [
-    "quickswap",
+    "alkaline",
     "matic",
-    "ethereum"
+    "ethereum",
+    "sepolia",
+    "linea"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -32,11 +34,11 @@
     "toformat": "^2.0.0"
   },
   "peerDependencies": {
-    "@ethersproject/address": "^5.0.0-beta",
-    "@ethersproject/contracts": "^5.0.0-beta",
-    "@ethersproject/networks": "^5.0.0-beta",
-    "@ethersproject/providers": "^5.0.0-beta",
-    "@ethersproject/solidity": "^5.0.0-beta"
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/networks": "^5.7.0",
+    "@ethersproject/providers": "^5.7.0",
+    "@ethersproject/solidity": "^5.7.0"
   },
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
