@@ -57,12 +57,81 @@ export function currencyEquals(currencyA: Currency, currencyB: Currency): boolea
 }
 
 export const WETH = {
-  
-  [ChainId.MUMBAI]: new Token(ChainId.MUMBAI, '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889', 18, 'WMATIC', 'Wrapped Matic'),
-  [ChainId.MATIC]: new Token(ChainId.MATIC, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WMATIC', 'Wrapped Matic'),
-  [ChainId.DOEGCHAIN_TESTNET]: new Token(ChainId.DOEGCHAIN_TESTNET, '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270', 18, 'WDOGE', 'Wrapped Doge'),
-  [ChainId.DOGECHAIN]: new Token(ChainId.DOGECHAIN, '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101', 18, 'WDOGE', 'Wrapped Doge'),
-  [ChainId.ZKTESTNET]: new Token(ChainId.ZKTESTNET, '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32', 18, 'WETH', 'Wrapped Ether'),
-  [ChainId.ZKEVM]: new Token(ChainId.ZKEVM, '0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9', 18, 'WETH', 'Wrapped Ether')
-  
+  [ChainId.MAINNET]: new Token(
+    ChainId.MAINNET,
+    '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.MUMBAI]: new Token(
+    ChainId.MUMBAI,
+    '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
+    18,
+    'WMATIC',
+    'Wrapped Matic'
+  ),
+  [ChainId.MATIC]: new Token(
+    ChainId.MATIC,
+    '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+    18,
+    'WMATIC',
+    'Wrapped Matic'
+  ),
+  [ChainId.DOGETESTNET]: new Token(
+    ChainId.DOGETESTNET,
+    '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+    18,
+    'WDOGE',
+    'Wrapped Doge'
+  ),
+  [ChainId.DOGECHAIN]: new Token(
+    ChainId.DOGECHAIN,
+    '0xB7ddC6414bf4F5515b52D8BdD69973Ae205ff101',
+    18,
+    'WDOGE',
+    'Wrapped Doge'
+  ),
+  [ChainId.ZKTESTNET]: new Token(
+    ChainId.ZKTESTNET,
+    '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.ZK_EVM]: new Token(
+    ChainId.ZK_EVM,
+    '0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.ZKSYNCALPHA]: new Token(
+    ChainId.ZKSYNCALPHA,
+    '0x20b28B1e4665FFf290650586ad76E977EAb90c5D',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.ZKSYNCERA]: new Token(
+    ChainId.ZKSYNCERA,
+    '0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.LINEATEST]: new Token(
+    ChainId.LINEATEST,
+    '0xEF00C455678C40F14874bAe72fF6be23dD522F23',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
+  [ChainId.LINEAMAIN]: new Token(
+    ChainId.LINEAMAIN,
+    '0x4F9A0e7FD2Bf6067db6994CF12E4495Df938E6e9',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  )
 }
